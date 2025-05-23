@@ -99,6 +99,11 @@ button{
     margin-bottom: 5%;
 }
 
+button:hover{
+    background-color: hsl(158, 42%, 18%);
+    cursor: pointer;
+}
+
 .icon{
     width: 10%;
     padding-right: 1rem;
