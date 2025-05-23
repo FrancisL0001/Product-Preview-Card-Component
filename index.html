@@ -8,11 +8,14 @@
   
   <title>Frontend Mentor | Product preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-
 </head>
 <body>
   <div class="container">
+    <picture>
+      <source media="(max-width: 768px)" srcset="./images/image-product-mobile.jpg">
+      <source media="(min-width: 769px)" srcset="./images/image-product-desktop.jpg">
+      <img src="image-desktop.jpg" alt="Responsive Image">
+    </picture>
     <h2>Perfume</h2>
 
     <h1>Gabrielle Essence Eau De Parfum</h1>
