@@ -21,6 +21,7 @@ body{
     justify-content: center;
     background-color: white;
     width: 95%;
+    border-radius: 1rem;
 }
 
 img{
@@ -30,6 +31,8 @@ img{
 h1{
     font-size: clamp(1rem, 3vw + 1rem, 2rem);
     font-family: "Fraunces", serif;
+    align-content: left;
+    width: 90%;
 }
 
 h2{
@@ -37,6 +40,8 @@ h2{
     font-size: clamp(.6rem, 2vw + 1rem, 1rem);
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    align-content: left;
+    width: 90%;
 }
 
 p{
@@ -44,5 +49,45 @@ p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     opacity: .5;
+    align-content: left;
+    width: 90%;
 }
 
+.prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    width: 90%;
+}
+
+#current-price{
+    font-size: clamp(1.2rem, 3vw + 1rem, 2.4rem);
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    opacity: 1;
+    width: auto;
+}
+
+#old-price{
+    text-decoration: line-through;
+    align-content: left;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    font-size: clamp(.6rem, 2vw + 1rem, .9em);
+    font-weight: 500;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    border-radius: 1rem;
+    border: none;
+}
+
+.icon{
+    width: 10%;
+}
