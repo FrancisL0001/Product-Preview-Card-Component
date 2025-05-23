@@ -26,6 +26,7 @@ body{
 
 img{
     width: 100%;
+    border-radius: 1rem 1rem 0 0;
 }
 
 h1{
@@ -54,10 +55,6 @@ p{
 }
 
 .prices{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: flex-start;
     width: 90%;
 }
 
@@ -68,11 +65,13 @@ p{
     color: hsl(158, 36%, 37%);
     opacity: 1;
     width: auto;
+    padding-right: 2rem;
 }
 
 #old-price{
     text-decoration: line-through;
     align-content: left;
+    justify-content: center;
 }
 
 button{
@@ -86,8 +85,12 @@ button{
     width: 80%;
     border-radius: 1rem;
     border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 5%;
 }
 
 .icon{
     width: 10%;
+    padding-right: 1rem;
 }
